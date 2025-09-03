@@ -57,10 +57,10 @@ Removed execute permission for the group on the drafts directory to restrict acc
 
 In this project, I first reviewed file and directory permissions using ls -la to identify items with incorrect access. I then modified permissions using chmod to:
 
-Remove unnecessary write access and add required read access for groups.
+  -Remove unnecessary write access and add required read access for groups.
 
-Handle hidden files correctly by including the . prefix.
+  -Handle hidden files correctly by including the . prefix.
 
-Restrict directory access to the user by removing execute permission for the group.
+  -Restrict directory access to the user by removing execute permission for the group.
 
 This project demonstrates practical Linux system administration skills, particularly in managing user and group permissions to enhance file and directory security.
